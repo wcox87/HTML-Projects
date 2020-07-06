@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Drama Sans';
+  src: url('https://rawgit.com/drama-sans/drama-sans/master/dist/DramaSans.eot'); /* IE9 Compat Modes */
+  src: url('https://rawgit.com/drama-sans/drama-sans/master/dist/DramaSans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      url('https://rawgit.com/drama-sans/drama-sans/master/dist/DramaSans.woff2') format('woff2'), /* Super Modern Browsers */
+      url('https://rawgit.com/drama-sans/drama-sans/master/dist/DramaSans.woff') format('woff'), /* Pretty Modern Browsers */
+      url('https://rawgit.com/drama-sans/drama-sans/master/dist/DramaSans.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+h1 {
+    font-family: 'Drama Sans';
+    font-size: 36px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 24px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: green;
+    text-align: center;
+}
+
+.about p {
+    font-size: 18px;
+}
+
+#projects {
+    background: green;
+    text-align: center;
+    font-size: 24px;
+}
+
+/*.contactme {
+    display: -webkit-flex;
+    display: block;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color: rgba(1, 75, 5, 0.0);
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.0);
+}
+
+.contactme form {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #000000;
+    padding: 12px 12px;
+    width: 75%;
+    border: 1px solid #808080;
+    margin: 2% auto;
+    border-radius: 7px;
+    background: rgb(6, 233, 44);
+    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    font-family: 'Raleway', sans-serif;
+} */
+
+.form {
+    font-family: 'Drama Sans';
+}
+
+.formtext {
+    font-family: 'Drama Sans';
+    width: 70%;
+    border: 2px solid green;
+    border-radius: 8px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
